@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartelera - SIRCI</title>
+    <link rel="stylesheet" href="/css/stylecinfo.css" type="text/css">
+    <link rel="shortcut icon" href="/public/favicon.ico" type="image/img">
+    <!--Importacion de Vue-->
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <header>
+		<div class="contenedor">
+			<h2 class="logotipo">SIRCI</h2>
+			<nav>
+				<a href="https://sirci.glitch.me">Inicio</a>
+				<a href="index.html" class="activo">Cartelera</a>
+				<a href="https://sirci.glitch.me/#login">Inicia sesion</a>
+				<a href="https://sirci-zulu.glitch.me">Registro</a>
+			</nav>
+		</div>
+	</header>
+    <section class="cartelera-detalles" id="info">
+        <img src="/src/assets/img/2012.jpg">
+        <h1> {{titulo}} </h1>
+        <section class="cartelera-datos">
+            <p>{{formato}} - {{clasif}} - {{puntuacion}}</p>
+        </section>
+        <section class="info-item">
+            <br>
+        <h2>Reparto</h2>
+        <p>{{reparto}}</p>
+        <br>
+        <h2>Sinopsis</h2>
+        <p>{{sinopsis}}</p>
+        <br>
+        <h2>Horarios disponibles</h2>
+        <p>{{horarios}}</p>
+        </section>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="boton-opciones">
+    <button onclick="javascript:ir_a_reservas();">Reservar</button><span><button onclick="javascript:ir_a_cartelera();">Regresar</button></span>
+    </div>
+    <!--Footer con nombre de empresa e info-->
+<footer>
+    <p class="small">SIRCI&copy;</p>
+</footer>
+<script src="/js/app.js"></script>
+</body>
+</html>

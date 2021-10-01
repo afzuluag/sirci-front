@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartelera - SIRCI</title>
+    <link rel="stylesheet" href="/css/stylec.css" type="text/css">
+    <link rel="shortcut icon" href="/public/favicon.ico" type="image/img">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Importacion de Vue-->
+    <script src="https://unpkg.com/vue@next"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <!--Cabecera de pagina y menú-->
+    <header>
+		<div class="contenedor">
+			<h2 class="logotipo" id="nombre">SIRCI</h2>
+			<nav>
+				<a href="https://sirci.glitch.me"><i class="fas fa-film"></i> Inicio</a>
+				<a href="index.html" class="activo"><i class="fas fa-photo-video"></i> Cartelera</a>
+				<a href="https://sirci.glitch.me/#login"><i class="fas fa-user"></i> Inicia sesion</a>
+				<a href="https://sirci-zulu.glitch.me"><i class="fas fa-user-edit"></i> Registro</a>
+			</nav>
+		</div>
+	</header>
+    <!--Seccion de carteleras-->
+    <section class="cartelera" id="info">
+        <h1>Cartelera</h1>
+        <div class="cartelera-container">
+            <section class="cartelera-item">
+                <h3> {{titulo}} </h3>
+                <a v-bind:href="enlace"><img src="/src/assets/img/sonic.jpg"></a>
+                <section class="cartelera-text">
+                    <h3> {{formato}} - {{clasif}} </h3>
+                    <p> {{horarios}} </p>
+                </section>
+            </section>
+            <section class="cartelera-item">
+                <h3> {{titulo}} </h3>
+                <a v-bind:href="enlace"><img src="/src/assets/img/2012.jpg"></a>
+                    <section class="cartelera-text">
+                        <h3> {{formato}} - {{clasif}} </h3>
+                        <p> {{horarios}} </p>
+                    </section>
+            </section>
+            <section class="cartelera-item">
+                <h3> {{titulo}} </h3>
+                <a v-bind:href="enlace"><img src="/src/assets/img/Ava.jpg"></a>
+                <section class="cartelera-text">
+                    <h3> {{formato}} - {{clasif}} </h3>
+                    <p> {{horarios}} </p>
+                </section>
+            </section>
+            <section class="cartelera-item">
+                <h3> {{titulo}} </h3>
+                <a v-bind:href="enlace"><img src="/src/assets/img/bdf.jpg"></a>
+                <section class="cartelera-text">
+                    <h3> {{formato}} - {{clasif}} </h3>
+                    <p> {{horarios}} </p>
+                </section>
+            </section>
+        </div>
+        <div class="cartelera-container">
+            <section class="cartelera-item">
+                <h3> {{titulo}} </h3>
+                <a v-bind:href="enlace"><img src="/src/assets/img/cruella.jpg"></a>
+                <section class="cartelera-text">
+                    <h2> {{formato}} - {{clasif}} </h2>
+                    <p> {{horarios}} </p>
+                </section>
+            </section>
+            <section class="cartelera-item">
+                <h3> {{titulo}} </h3>
+                <a v-bind:href="enlace"><img src="/src/assets/img/marte.jpg"></a>
+                <section class="cartelera-text">
+                    <h2> {{formato}} - {{clasif}} </h2>
+                    <p> {{horarios}} </p>
+                </section>
+            </section> 
+            <section class="cartelera-item">
+                <h3> {{titulo}} </h3>
+                <a v-bind:href="enlace"><img src="/src/assets/img/mulan.jpg"></a>
+                <section class="cartelera-text">
+                    <h2> {{formato}} - {{clasif}} </h2>
+                    <p> {{horarios}} </p>
+                </section>
+            </section> 
+            <section class="cartelera-item">
+                <h3> {{titulo}} </h3>
+                <a v-bind:href="enlace"><img src="/src/assets/img/ElUltimoMercenario.jpg"></a>
+                <section class="cartelera-text">
+                    <h2> {{formato}} - {{clasif}} </h2>
+                    <p> {{horarios}} </p>
+                </section>
+            </section>
+        </div>
+        <div class="cartelera-container">
+            <section class="cartelera-item">
+                <h3> {{titulo}} </h3>
+                <a v-bind:href="enlace"><img src="/src/assets/img/imagen1.jpg"></a>
+                <section class="cartelera-text">
+                    <h2> {{formato}} - {{clasif}} </h2>
+                    <p> {{horarios}} </p>
+                </section>
+            </section>
+            <section class="cartelera-item">
+                <h3> {{titulo}} </h3>
+                <a v-bind:href="enlace"><img src="/src/assets/img/imagen4.jpg"></a>
+                <section class="cartelera-text">
+                    <h2> {{formato}} - {{clasif}} </h2>
+                    <p> {{horarios}} </p>
+                </section>
+            </section> 
+            <section class="cartelera-item">
+                <h3> {{titulo}} </h3>
+                <a v-bind:href="enlace"><img src="/src/assets/img/JungleCruise.jpg"></a>
+                <section class="cartelera-text">
+                    <h2> {{formato}} - {{clasif}} </h2>
+                    <p> {{horarios}} </p>
+                </section>
+            </section> 
+            <section class="cartelera-item">
+                <h3> {{titulo}} </h3>
+                <a v-bind:href="enlace"><img src="/src/assets/img/SAS_elascensodelcisnenegro.jpg"></a>
+                <section class="cartelera-text">
+                    <h2> {{formato}} - {{clasif}} </h2>
+                    <p> {{horarios}} </p>
+                </section>
+            </section>
+        </div>
+        <div class="cartelera-container">
+            <section class="cartelera-item">
+                <h3> {{titulo}} </h3>
+                <a v-bind:href="enlace"><img src="/src/assets/img/LaGranLEGO.jpg"></a>
+                <section class="cartelera-text">
+                    <h2> {{formato}} - {{clasif}} </h2>
+                    <p> {{horarios}} </p>
+                </section>
+            </section>
+            <section class="cartelera-item">
+                <h3> {{titulo}} </h3>
+                <a v-bind:href="enlace"><img src="/src/assets/img/DURODECUIDAR.jpg"></a>
+                <section class="cartelera-text">
+                    <h2> {{formato}} - {{clasif}} </h2>
+                    <p> {{horarios}} </p>
+                </section>
+            </section> 
+            <section class="cartelera-item">
+                <h3> {{titulo}} </h3>
+                <a v-bind:href="enlace"><img src="/src/assets/img/explota.jpg"></a>
+                <section class="cartelera-text">
+                    <h2> {{formato}} - {{clasif}} </h2>
+                    <p> {{horarios}} </p>
+                </section>
+            </section> 
+            <section class="cartelera-item">
+                <h3> {{titulo}} </h3>
+                <a v-bind:href="enlace"><img src="/src/assets/img/FF9nuevoposter.jpg"></a>
+                <section class="cartelera-text">
+                    <h2> {{formato}} - {{clasif}} </h2>
+                    <p> {{horarios}} </p>
+                </section>
+            </section> 
+        </div>  
+    </section>
+</section>
+<!--Footer con nombre de empresa e info-->
+<footer>
+    <p>SIRCI&copy;</p>
+</footer>
+<script src="/js/app.js"></script>
+</body>
+</html>
