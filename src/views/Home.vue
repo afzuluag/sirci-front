@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    <NavBar />
+    <font-awesome-icon :icon="['fas', 'user-secret']" />
+    <NavBar msg="Helllo "/>
   </div>
 </template>
 

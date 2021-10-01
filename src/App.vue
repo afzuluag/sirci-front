@@ -1,10 +1,18 @@
 <template>
-  <div>
+  <div class="app">
+    <div class="nav-bar">
+     <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
     <NavBar />
+    </div>
+    <router-view />
   </div>
 </template>
 
 <script>
+import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
+import { library } from "@fortawesome/fontawesome-svg-core";
+library.add(faUserSecret);
 </script>
 
 <style>
