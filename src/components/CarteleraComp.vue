@@ -2,7 +2,9 @@
   <div>
     <div id="cartelera-item">
       <h3>{{ titulo }}</h3>
-      <a v-bind:href="enlace"><img src="/src/assets/img/sonic.jpg" /></a>
+      <router-link to="/Cartelerainfo"
+        ><img src="/src/assets/img/sonic.jpg"
+      /></router-link>
       <div id="cartelera-text">
         <h3>{{ formato }} - {{ clasif }}</h3>
         <p>{{ horarios }}</p>

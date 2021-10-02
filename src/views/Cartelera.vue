@@ -16,17 +16,20 @@
       <CarteleraComp />
       <CarteleraComp />
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import CarteleraComp from "@/components/CarteleraComp.vue";
 import NavBar from "@/components/NavBar.vue";
+import Footer from "@/components/Footer.vue";
 export default {
   name: "Cartelera",
   components: {
     CarteleraComp,
     NavBar,
+    Footer,
   },
 };
 </script>
