@@ -2,10 +2,16 @@
   <div id="contenedor">
     <h2>SIRCI</h2>
     <nav>
-      <router-link to="#"><font-awesome-icon icon="film" /> Inicio</router-link>
-      <router-link to="/cartelera"><font-awesome-icon icon="photo-video" /> Cartelera</router-link>
-      <router-link to="#"><font-awesome-icon icon="user" /> Inicia sesion</router-link>
-      <router-link to="#"><font-awesome-icon icon="user-edit" /> Registro</router-link>
+      <router-link to="/"><font-awesome-icon icon="film" /> Inicio</router-link>
+      <router-link to="/cartelera"
+        ><font-awesome-icon icon="photo-video" /> Cartelera</router-link
+      >
+      <router-link to="#"
+        ><font-awesome-icon icon="user" /> Inicia sesion</router-link
+      >
+      <router-link to="#"
+        ><font-awesome-icon icon="user-edit" /> Registro</router-link
+      >
     </nav>
   </div>
 </template>
@@ -16,9 +22,6 @@ export default {
     msg: String,
   },
 };
-import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
-import { library } from "@fortawesome/fontawesome-svg-core";
-library.add(faUserSecret);
 </script>
 <style scoped>
 #contenedor {
