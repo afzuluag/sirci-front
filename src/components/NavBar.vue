@@ -3,14 +3,8 @@
     <h2>SIRCI</h2>
     <nav>
       <router-link to="/"><font-awesome-icon icon="film" /> Inicio</router-link>
-      <router-link to="/cartelera"
-        ><font-awesome-icon icon="photo-video" /> Cartelera</router-link
-      >
-      <router-link to="#"
-        ><font-awesome-icon icon="user" /> Inicia sesion</router-link
-      >
-      <router-link to="#"
-        ><font-awesome-icon icon="user-edit" /> Registro</router-link
+      <router-link to="/dashboard"
+        ><font-awesome-icon icon="cogs" /> Dashboard</router-link
       >
     </nav>
   </div>

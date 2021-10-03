@@ -2,9 +2,7 @@
   <div>
     <div id="cartelera-item">
       <h3>{{ titulo }}</h3>
-      <router-link to="/Cartelerainfo"
-        ><img src="/src/assets/img/sonic.jpg"
-      /></router-link>
+      <router-link to="/cartelerainfo"><img :src="url" /></router-link>
       <div id="cartelera-text">
         <h3>{{ formato }} - {{ clasif }}</h3>
         <p>{{ horarios }}</p>
@@ -17,7 +15,12 @@
 export default {
   name: "CarteleraComp",
   props: {
-    msg: String,
+    titulo: String,
+    formato: String,
+    clasif: String,
+    horarios: String,
+    url: String,
+    id: String,
   },
 };
 </script>

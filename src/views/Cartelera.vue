@@ -3,18 +3,55 @@
     <NavBar />
     <h1>Cartelera</h1>
     <div id="cartelera-container">
-      <CarteleraComp />
-      <CarteleraComp />
-      <CarteleraComp />
-      <CarteleraComp />
-      <CarteleraComp />
-      <CarteleraComp />
-      <CarteleraComp />
-      <CarteleraComp />
-      <CarteleraComp />
-      <CarteleraComp />
-      <CarteleraComp />
-      <CarteleraComp />
+      <CarteleraComp
+        titulo="Sonic"
+        formato="3D"
+        clasif="Niños"
+        horarios="9:00PM"
+        url="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg"
+      />
+            <CarteleraComp
+        titulo="Sonic"
+        formato="3D"
+        clasif="Niños"
+        horarios="9:00PM"
+        url="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg"
+      />
+            <CarteleraComp
+        titulo="Sonic"
+        formato="3D"
+        clasif="Niños"
+        horarios="9:00PM"
+        url="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg"
+      />
+            <CarteleraComp
+        titulo="Sonic"
+        formato="3D"
+        clasif="Niños"
+        horarios="9:00PM"
+        url="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg"
+      />
+            <CarteleraComp
+        titulo="Sonic"
+        formato="3D"
+        clasif="Niños"
+        horarios="9:00PM"
+        url="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg"
+      />
+            <CarteleraComp
+        titulo="Sonic"
+        formato="3D"
+        clasif="Niños"
+        horarios="9:00PM"
+        url="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg"
+      />
+            <CarteleraComp
+        titulo="Sonic"
+        formato="3D"
+        clasif="Niños"
+        horarios="9:00PM"
+        url="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg"
+      />
     </div>
     <Footer />
   </div>
