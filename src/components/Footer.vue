@@ -15,7 +15,7 @@ export default {
 footer {
   width: 100%;
   position: relative;
-  margin: 0px 0px 40px;
+  margin: 1% 0%;
   text-align: center;
 }
 footer p {

@@ -1,12 +1,10 @@
 <template>
-  <div>
-    <div id="cartelera-item">
-      <h3>{{ titulo }}</h3>
-      <router-link to="/cartelerainfo"><img :src="url" /></router-link>
-      <div id="cartelera-text">
-        <h3>{{ formato }} - {{ clasif }}</h3>
-        <p>{{ horarios }}</p>
-      </div>
+  <div class="cartelera-item">
+    <h3>{{ titulo }}</h3>
+    <router-link to="/cartelerainfo"><img :src="url" /></router-link>
+    <div class="cartelera-text">
+      <h3>{{ formato }} - {{ clasif }}</h3>
+      <p>{{ horarios }}</p>
     </div>
   </div>
 </template>
@@ -21,6 +19,9 @@ export default {
     horarios: String,
     url: String,
     id: String,
+    reparto: String,
+    sinopsis: String,
+    puntuacion: String,
   },
 };
 </script>
@@ -30,18 +31,14 @@ img {
   width: 100%;
   height: 100%;
 }
-#cartelera-item {
-  width: 90%;
-  max-width: 1400px;
-  margin: auto;
-}
-#cartelera-item {
+.cartelera-item {
   color: #fff;
-  width: 155px;
   height: 260px;
   position: relative;
   overflow: hidden;
   margin-bottom: 25px;
+  margin-right: 60px;
+  max-width: 155px;
 }
 .cartelera-title {
   display: flex;
@@ -49,22 +46,19 @@ img {
   justify-content: space-evenly;
   flex-direction: row;
 }
-.cartelera-img {
-  position: relative;
-  overflow: hidden;
-}
-#cartelera-text {
+.cartelera-text {
   position: absolute;
+  width: 100%;
   bottom: 0;
   padding: 20px;
   background: rgba(0, 0, 0, 0.7);
   color: #fff;
   transform: translateY(100%);
 }
-#cartelera-text p {
+.cartelera-text {
   text-align: center;
 }
-#cartelera-item:hover #cartelera-text {
+.cartelera-item:hover .cartelera-text {
   transform: translateY(0%);
   transition: all 0.5s ease-out;
 }

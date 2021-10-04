@@ -1,12 +1,16 @@
 <template>
-  <div id="contenedor">
-    <h2>SIRCI</h2>
-    <nav>
-      <router-link to="/"><font-awesome-icon icon="film" /> Inicio</router-link>
-      <router-link to="/dashboard"
-        ><font-awesome-icon icon="cogs" /> Dashboard</router-link
-      >
-    </nav>
+  <div id="header">
+    <div id="contenedor">
+      <h2 id="tit">SIRCI</h2>
+      <nav>
+        <router-link to="/"
+          ><font-awesome-icon icon="film" /> Inicio</router-link
+        >
+        <router-link to="/dashboard"
+          ><font-awesome-icon icon="cogs" /> Dashboard</router-link
+        >
+      </nav>
+    </div>
   </div>
 </template>
 <script>
@@ -18,27 +22,29 @@ export default {
 };
 </script>
 <style scoped>
-#contenedor {
+#header {
+  width: 90%;
+  margin: auto;
+}
+#header #contenedor {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 0;
-  width: 90%;
-  margin: auto;
 }
-h2 {
+#header #tit {
   font-family: "Bebas Neue", cursive;
   font-weight: normal;
   color: var(--rojo);
   font-size: 40px;
 }
-nav a {
+#header nav a {
   color: #aaa;
   text-decoration: none;
   margin-right: 20px;
 }
-nav a:hover,
-nav a.activo {
+#header nav a:hover,
+#header nav a.activo {
   color: #fff;
 }
 </style>

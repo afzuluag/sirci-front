@@ -3,21 +3,27 @@
     <NavBar />
     <section class="cartelera-detalles" id="info">
       <img src="/src/assets/img/2012.jpg" />
-      <h1>titulo</h1>
+      <h1>{{ titulo }}</h1>
       <section class="cartelera-datos">
-        <p>formato -  clasif  -  puntuacion </p>
+        <p>{{ formato }} - {{ clasif }} - {{ puntuacion }}</p>
       </section>
       <section class="info-item">
         <br />
         <h2>Reparto</h2>
-        <p> reparto </p>
+        <p>{{ reparto }}</p>
         <br />
         <h2>Sinopsis</h2>
-        <p> sinopsis </p>
+        <p>{{ sinopsis }}</p>
         <br />
         <h2>Horarios disponibles</h2>
-        <p> horarios </p>
+        <p>{{ horarios }}</p>
       </section>
+      <div class="boton-opciones">
+        <router-link to="/"><button>Reservar</button></router-link
+        ><span
+          ><router-link to="/"><button>Regresar</button></router-link></span
+        >
+      </div>
     </section>
     <Footer />
   </div>
@@ -70,5 +76,24 @@ p {
   margin-left: 20px;
   margin-right: 20px;
   color: #aaa;
+}
+.boton-opciones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  text-align: center;
+}
+.boton-opciones button {
+  cursor: pointer;
+  position: relative;
+  margin-right: 20px;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #ca1818;
+  border-radius: 6px;
+  border: 2px solid #ca1818;
 }
 </style>
