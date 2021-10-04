@@ -2,7 +2,7 @@
   <div>
     <NavBar />
     <section class="cartelera-detalles" id="info">
-      <img src="/src/assets/img/2012.jpg" />
+      <img :src="url" />
       <h1>{{ titulo }}</h1>
       <section class="cartelera-datos">
         <p>{{ formato }} - {{ clasif }} - {{ puntuacion }}</p>
