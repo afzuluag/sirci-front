@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import DashBoard from "../views/DashBoard.vue";
-import Cartelera from "../views/Cartelera.vue";
+import Peliculas from "../views/Peliculas.vue";
 import Cartelerainfo from "../views/Cartelerainfo.vue";
 
 Vue.use(VueRouter);
@@ -9,8 +9,8 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: "/",
-    name: "Cartelera",
-    component: Cartelera,
+    name: "Peliculas",
+    component: Peliculas,
   },
   {
     path: "/dashboard",
