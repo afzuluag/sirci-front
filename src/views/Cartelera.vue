@@ -180,7 +180,7 @@ import CarteleraComp from "@/components/CarteleraComp.vue";
 import NavBar from "@/components/NavBar.vue";
 import Footer from "@/components/Footer.vue";
 export default {
-  name: "Peliculas",
+  name: "Cartelera",
   components: {
     CarteleraComp,
     NavBar,
