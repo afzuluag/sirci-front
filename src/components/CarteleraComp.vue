@@ -18,7 +18,7 @@ export default {
     clasif: String,
     horarios: String,
     url: String,
-    id: String,
+    id_pelicula: String,
     reparto: String,
     sinopsis: String,
     puntuacion: String,
