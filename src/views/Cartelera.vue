@@ -3,11 +3,7 @@
     <NavBar />
     <div class="cartelera">
       <h1>Cartelera</h1>
-      <div
-        class="cartelera-container"
-        v-for="(item, index) in pelis"
-        :key="index"
-      >
+      <div class="cartelera-container">
         <CarteleraComp />
         <CarteleraComp />
         <CarteleraComp />
@@ -39,33 +35,6 @@ export default {
     CarteleraComp,
     NavBar,
     Footer,
-  },
-  data() {
-    return {
-      pelis: [],
-      cartelera: {
-        nombre: "",
-        id_pelicula: "",
-        formato: "",
-        clasificacion: "",
-        calificacion: "",
-        reparto: "",
-        sinopsis: "",
-        url: "",
-      },
-    };
-  },
-  methods: {
-    mostrarCarteleras() {
-      this.axios
-        .get("/peliculas")
-        .then((res) => {
-          this.pelis = res.data;
-        })
-        .catch((e) => {
-          console.log(e.response);
-        });
-    },
   },
 };
 </script>

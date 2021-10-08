@@ -23,6 +23,18 @@ export default {
     sinopsis: String,
     puntuacion: String,
   },
+  methods: {
+    mostrarCarteleras() {
+      this.axios
+        .get("/peliculas")
+        .then((res) => {
+          this.pelis = res.data;
+        })
+        .catch((e) => {
+          console.log(e.response);
+        });
+    },
+  },
 };
 </script>
 <style scoped>
