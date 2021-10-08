@@ -43,6 +43,16 @@ export default {
   data() {
     return {
       pelis: [],
+      cartelera: {
+        nombre: "",
+        id_pelicula: "",
+        formato: "",
+        clasificacion: "",
+        calificacion: "",
+        reparto: "",
+        sinopsis: "",
+        url: "",
+      },
     };
   },
   methods: {
