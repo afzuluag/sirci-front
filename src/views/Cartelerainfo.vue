@@ -19,7 +19,7 @@
         <p>{{ horarios }}</p>
       </section>
       <div class="boton-opciones">
-        <router-link to="/"><button>Reservar</button></router-link
+        <router-link to="/list"><button>Reservar</button></router-link
         ><span
           ><router-link to="/"><button>Regresar</button></router-link></span
         >

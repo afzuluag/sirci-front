@@ -18,7 +18,7 @@ const routes = [
     component: DashBoard,
   },
   {
-    path: "/Cartelerainfo",
+    path: "/cartelerainfo/:id",
     name: "Cartelerainfo",
     component: Cartelerainfo,
   },
