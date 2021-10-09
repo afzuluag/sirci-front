@@ -1,6 +1,6 @@
 function changeImage(nsilla,i) {
 
-            estaSilla = document.getElementById(nsilla).src ;
+            /*estaSilla = document.getElementById(nsilla).src ;*/
     
             /*if (document.getElementById(nsilla).src == "file:///C:/datos/imagen-mintic/silla2.png") {
                return;

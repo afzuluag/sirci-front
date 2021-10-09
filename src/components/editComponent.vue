@@ -1,7 +1,7 @@
 <template>
     <form @submit.prevent="methodEnviar">
         <label>String cinema:</label> 
-        <input type="text" v-model="cinema.strcinema" > <br> 
+        <input type="text" v-model="cinema.cinema" > <br> 
 
         <button> Entrar datos </button>
     </form>
@@ -12,7 +12,7 @@
        data(){
           return{
               cinema:{
-                  strsillas:"1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                  sillas:"1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
               }
           }
        },

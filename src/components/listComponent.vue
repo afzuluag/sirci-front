@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1> Listar </h1>
-       {{ Cinemas.strcinema }}
+       {{ Cinemas.cinema }}
   </div>
 </template>
 
@@ -15,7 +15,7 @@
         },
 
         created(){
-            axios.get("http://localhost:8000/consultaSillas").then((res) => this.strcinema=res.data);
+            axios.get("http://localhost:8000/consultaSillas").then((res) => this.cinema=res.data);
 
        },
        methods: {
