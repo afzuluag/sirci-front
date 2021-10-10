@@ -1,6 +1,6 @@
 <template>
   <div class="cartelera-item">
-    <h3>{{ titulo }}</h3>
+    <h3>{{ titulo }}{{ $route.params.id }}</h3>
     <router-link to="/cartelerainfo/:id"><img :src="url" /></router-link>
     <div class="cartelera-text">
       <h3>{{ formato }} - {{ clasif }}</h3>
