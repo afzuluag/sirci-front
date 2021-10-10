@@ -4,21 +4,17 @@
     <div class="cartelera">
       <h1>Cartelera</h1>
       <div class="cartelera-container">
-        <CarteleraComp />
-        <CarteleraComp />
-        <CarteleraComp />
-        <CarteleraComp />
-        <CarteleraComp />
-        <CarteleraComp />
-        <CarteleraComp />
-        <CarteleraComp />
-        <CarteleraComp />
-        <CarteleraComp />
-        <CarteleraComp />
-        <CarteleraComp />
-        <CarteleraComp />
-        <CarteleraComp />
-        <CarteleraComp />
+        <CarteleraComp
+          titulo="String"
+          formato="String"
+          clasif="String"
+          horarios="String"
+          url="https://static.wikia.nocookie.net/marvel/images/b/b7/Venom_Carnage_Liberado_Poster_001.jpg/revision/latest?cb=20210511023400&path-prefix=es"
+          id="1"
+          reparto="String"
+          sinopsis="String"
+          puntuacion="String"
+        />
       </div>
     </div>
     <Footer />

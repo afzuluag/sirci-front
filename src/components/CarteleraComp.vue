@@ -1,7 +1,7 @@
 <template>
   <div class="cartelera-item">
     <h3>{{ titulo }}</h3>
-    <router-link to="/cartelerainfo"><img :src="url" /></router-link>
+    <router-link to="/cartelerainfo/:id"><img :src="url" /></router-link>
     <div class="cartelera-text">
       <h3>{{ formato }} - {{ clasif }}</h3>
       <p>{{ horarios }}</p>
@@ -18,7 +18,7 @@ export default {
     clasif: String,
     horarios: String,
     url: String,
-    id_pelicula: String,
+    id: String,
     reparto: String,
     sinopsis: String,
     puntuacion: String,
