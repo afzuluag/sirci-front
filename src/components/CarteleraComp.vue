@@ -1,13 +1,18 @@
 <template>
-  <div class="cartelera-item">
-    <h3>{{ titulo }}</h3>
-    <router-link :to="`/cartelerainfo/${cartelera.id}`"
-      ><img :src="url"
-    /></router-link>
-    <div class="cartelera-text">
-      <h3>{{ formato }} - {{ clasif }}</h3>
-      <p>{{ horarios }}</p>
+  <div id="carte-datos">
+    <div class="cartelera-item">
+      <h3>{{ titulo }}</h3>
+      <router-link to="/cartelerainfo"><img :src="url" /></router-link>
+      <div class="cartelera-text">
+        <h3>{{ formato }} - {{ clasif }}</h3>
+        <p>{{ horarios }}</p>
+      </div>
     </div>
+    <router-link
+      :to="{ name: 'Cartelerainfo', params: { id: cartelera.id } }"
+      class="btn btn-success"
+      >Detalles
+    </router-link>
   </div>
 </template>
 
@@ -16,14 +21,13 @@ export default {
   name: "CarteleraComp",
   props: {
     titulo: String,
+    url: String,
     formato: String,
     clasif: String,
+    puntuacion: String,
     horarios: String,
-    url: String,
-    id: String,
     reparto: String,
     sinopsis: String,
-    puntuacion: String,
   },
 };
 </script>
