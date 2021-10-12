@@ -45,7 +45,7 @@ img {
   height: 260px;
   position: relative;
   overflow: hidden;
-  margin-bottom: 25px;
+  margin-bottom: 8px;
   margin-right: 60px;
   max-width: 155px;
 }
@@ -70,5 +70,21 @@ img {
 .cartelera-item:hover .cartelera-text {
   transform: translateY(0%);
   transition: all 0.5s ease-out;
+}
+.boton-link .btn{
+  width: 40%;
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 12px;
+  background-color: #ca1818;
+  border-radius: 6px;
+  color: #ffffff;
+  border: 2px solid #ca1818;
+}
+.boton-link{
+  margin-left: 45px;
+  margin-bottom: 25px;
 }
 </style>
