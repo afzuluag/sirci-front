@@ -10,7 +10,7 @@
     </div>
     <div>
       <router-link
-        :to="{ name: 'Cartelerainfo', params: { id_pelicula: cartelera.id } }"
+        :to="{ name: 'Cartelerainfo', params: { _id: cartelera.id } }"
         class="btn btn-success"
         >Detalles
       </router-link>
@@ -23,7 +23,6 @@ export default {
   name: "CarteleraComp",
   props: {
     titulo: String,
-    id_pelicula: String,
     url: String,
     formato: String,
     clasificacion: String,

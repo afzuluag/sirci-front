@@ -5,7 +5,7 @@
       <img :src="url" />
       <h1>{{ titulo }}</h1>
       <section class="cartelera-datos">
-        <p>{{ formato }} - {{ clasif }} - {{ puntuacion }}</p>
+        <p>{{ formato }} - {{ clasificacion }} - {{ calificacion }}</p>
       </section>
       <section class="info-item">
         <br />
