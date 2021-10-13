@@ -2,7 +2,7 @@
   <div>
     <div class="cartelera-item">
       <h3>{{ titulo }}</h3>
-      <img :src="url" />
+      <img :src="img" />
       <div class="cartelera-text">
         <h3>{{ formato }} - {{ clasificacion }}</h3>
         <p>{{ horarios }}</p>
@@ -23,7 +23,7 @@ export default {
   name: "CarteleraComp",
   props: {
     titulo: String,
-    url: String,
+    img: String,
     formato: String,
     clasificacion: String,
     calificacion: String,

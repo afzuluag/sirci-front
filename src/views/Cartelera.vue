@@ -8,7 +8,7 @@
           v-for="cartelera in carteleras"
           v-bind:key="cartelera.id"
           v-bind:titulo="cartelera.titulo"
-          v-bind:url="cartelera.url"
+          v-bind:img="cartelera.img"
           v-bind:formato="cartelera.formato"
           v-bind:clasificacion="cartelera.clasificacion"
           v-bind:calificacion="cartelera.calificacion"
