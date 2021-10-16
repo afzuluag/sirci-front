@@ -5,7 +5,7 @@
       <img :src="url" />
       <h1>{{ titulo }}</h1>
       <section class="cartelera-datos">
-        <p>{{ formato }} - {{ clasif }} - {{ puntuacion }}</p>
+        <p>{{ formato }} - {{ clasificacion }} - {{ calificacion }}</p>
       </section>
       <section class="info-item">
         <br />
@@ -19,7 +19,7 @@
         <p>{{ horarios }}</p>
       </section>
       <div class="boton-opciones">
-        <router-link to="/"><button>Reservar</button></router-link
+        <router-link to="/list"><button>Reservar</button></router-link
         ><span
           ><router-link to="/"><button>Regresar</button></router-link></span
         >

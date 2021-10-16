@@ -10,19 +10,19 @@
       />
       <center>
         <img src="@/assets/film.jpg" class="profile_image" />
-        <h4>Administrador</h4>
+        <h4><i class="fas fa-chalkboard-teacher"></i> DashBoard</h4>
       </center>
-      <router-link to="/DashBoard"
-        ><i class="fas fa-desktop"></i><span> Dashboard</span></router-link
+      <router-link to="/GestorReservas1"
+        ><i class="fas fa-desktop"></i><span> Gestor Sala 1</span></router-link
       >
-      <router-link to="/GestorMovie"
+      <router-link to="/GestorReservas2"
+        ><i class="fas fa-th"></i><span> Gestor Sala 2</span></router-link
+      >
+      <router-link to="/ListMovies"
         ><i class="fas fa-table"></i><span> Gestor Peliculas</span></router-link
       >
-      <router-link to="/GestorReservas"
-        ><i class="fas fa-th"></i
-        ><span> Administrar Reservas</span></router-link
-      >
-      <router-link to="/AdminUsers"
+
+      <router-link to="/ListUsers"
         ><i class="fas fa-cogs"></i
         ><span> Administrar Usuarios</span></router-link
       >
@@ -55,7 +55,7 @@ export default {
   position: fixed;
   left: 0;
   width: 240px;
-  height: 70%;
+  height: 572px;
 }
 
 .sidebar .profile_image {

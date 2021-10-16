@@ -1,13 +1,19 @@
 <template>
   <div id="header">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <div id="contenedor">
       <h2 id="tit">SIRCI</h2>
       <nav>
-        <router-link to="/"
-          ><font-awesome-icon icon="film" /> Inicio</router-link
-        >
+        <router-link to="/"><i class="fas fa-film"></i> Inicio</router-link>
         <router-link to="/dashboard"
-          ><font-awesome-icon icon="cogs" /> Dashboard</router-link
+          ><i class="fas fa-chalkboard-teacher"></i> Dashboard</router-link
         >
       </nav>
     </div>

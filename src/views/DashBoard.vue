@@ -2,21 +2,21 @@
   <div>
     <NavBar />
     <Dash />
-    <DashContent titulo="Vista Dashboard" />
+    <DashCont titulo="View DashBoard" />
   </div>
 </template>
 
 <script>
 import NavBar from "@/components/NavBar.vue";
 import Dash from "../components/Dash.vue";
-import DashContent from "../components/DashPeliculas.vue";
+import DashCont from "../components/DashCont.vue";
 
 export default {
   name: "DashBoard",
   components: {
     NavBar,
     Dash,
-    DashContent,
+    DashCont,
   },
 };
 </script>

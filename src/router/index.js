@@ -3,9 +3,12 @@ import VueRouter from "vue-router";
 import DashBoard from "../views/DashBoard.vue";
 import Cartelera from "../views/Cartelera.vue";
 import Cartelerainfo from "../views/Cartelerainfo.vue";
-import GestorMovie from "../views/GestorMovie.vue";
-import GestorReservas from "../views/GestorReservas.vue";
-import AdminUsers from "../views/AdminUsers.vue";
+import ListMovies from "../views/ListMovies.vue";
+import GestorReservas1 from "../views/GestorReservas1.vue";
+import GestorReservas2 from "../views/GestorReservas2.vue";
+import ListUsers from "../views/ListUsers.vue";
+import CreateUser from "../views/CreateUser.vue";
+import CreateMovie from "../views/CreateMovie.vue";
 
 Vue.use(VueRouter);
 
@@ -26,19 +29,34 @@ const routes = [
     component: Cartelerainfo,
   },
   {
-    path: "/GestorMovie",
-    name: "GestorMovie",
-    component: GestorMovie,
+    path: "/ListMovies",
+    name: "ListMovies",
+    component: ListMovies,
   },
   {
-    path: "/GestorReservas",
-    name: "GestorReservas",
-    component: GestorReservas,
+    path: "/GestorReservas1",
+    name: "GestorReservas1",
+    component: GestorReservas1,
   },
   {
-    path: "/AdminUsers",
-    name: "AdminUsers",
-    component: AdminUsers,
+    path: "/GestorReservas2",
+    name: "GestorReservas2",
+    component: GestorReservas2,
+  },
+  {
+    path: "/ListUsers",
+    name: "ListUsers",
+    component: ListUsers,
+  },
+  {
+    path: "/CreateUser",
+    name: "CreateUser",
+    component: CreateUser,
+  },
+  {
+    path: "/CreateMovie",
+    name: "CreateMovie",
+    component: CreateMovie,
   },
 ];
 

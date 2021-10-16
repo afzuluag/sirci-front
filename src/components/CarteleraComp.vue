@@ -1,10 +1,19 @@
 <template>
-  <div class="cartelera-item">
-    <h3>{{ titulo }}</h3>
-    <router-link to="/cartelerainfo"><img :src="url" /></router-link>
-    <div class="cartelera-text">
-      <h3>{{ formato }} - {{ clasif }}</h3>
-      <p>{{ horarios }}</p>
+  <div>
+    <div>
+      <div class="cartelera-item">
+        <h3>{{ titulo }}</h3>
+        <img :src="url" />
+        <div class="cartelera-text">
+          <h3>{{ formato }} - {{ clasificacion }}</h3>
+          <p>{{ horarios }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="boton-link">
+      <router-link :to="{ name: 'Cartelerainfo' }" class="btn btn-success"
+        >Detalles
+      </router-link>
     </div>
   </div>
 </template>
@@ -14,14 +23,14 @@ export default {
   name: "CarteleraComp",
   props: {
     titulo: String,
-    formato: String,
-    clasif: String,
-    horarios: String,
+    id_pelicula: String,
     url: String,
-    id: String,
+    formato: String,
+    clasificacion: String,
+    calificacion: String,
+    horarios: String,
     reparto: String,
     sinopsis: String,
-    puntuacion: String,
   },
 };
 </script>
@@ -36,8 +45,8 @@ img {
   height: 260px;
   position: relative;
   overflow: hidden;
-  margin-bottom: 25px;
   margin-right: 60px;
+  margin-bottom: 8px;
   max-width: 155px;
 }
 .cartelera-title {
@@ -61,5 +70,21 @@ img {
 .cartelera-item:hover .cartelera-text {
   transform: translateY(0%);
   transition: all 0.5s ease-out;
+}
+.boton-link .btn {
+  width: 40%;
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 12px;
+  background-color: #ca1818;
+  border-radius: 6px;
+  color: #ffffff;
+  border: 2px solid #ca1818;
+}
+.boton-link {
+  margin-left: 45px;
+  margin-bottom: 25px;
 }
 </style>

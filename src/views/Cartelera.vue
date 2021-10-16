@@ -5,170 +5,75 @@
       <h1>Cartelera</h1>
       <div class="cartelera-container">
         <CarteleraComp
-          titulo="Sonic"
+          titulo="Prueba"
+          url="https://th.bing.com/th/id/R.b28b19ad42419660b65d0079db8984e0?rik=JpKCKYfmoXoQBA&riu=http%3A%2F%2Fes.web.img2.acsta.net%2Fpictures%2F19%2F11%2F12%2F12%2F25%2F0815514.jpg&ehk=j%2B1Os9Fcc%2BXuxpPblBaN0FD9K%2B6Fv2WBDEvf5iHDznA%3D&risl=&pid=ImgRaw&r=0"
           formato="3D"
-          clasif="Niños"
-          horarios="9:00PM"
-          url="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg"
-          id="01"
-          puntuacion="3/5"
-          sinopsis="Laboris ea consectetur cillum ipsum culpa. Tempor ex amet veniam ex in proident fugiat sint exercitation ut ut. Magna elit consectetur sunt culpa qui nulla laborum excepteur quis. Minim culpa consequat sint fugiat ea. Laborum anim ea aliqua quis. Deserunt sunt tempor magna reprehenderit consectetur."
-          reparto="Sint et occaecat officia mollit occaecat."
-        />
+          clasificacion="Niños"
+          horarios="4:00-6:00 PM"
+        ></CarteleraComp>
         <CarteleraComp
-          titulo="Sonic"
+          titulo="Prueba"
+          url="https://th.bing.com/th/id/R.b28b19ad42419660b65d0079db8984e0?rik=JpKCKYfmoXoQBA&riu=http%3A%2F%2Fes.web.img2.acsta.net%2Fpictures%2F19%2F11%2F12%2F12%2F25%2F0815514.jpg&ehk=j%2B1Os9Fcc%2BXuxpPblBaN0FD9K%2B6Fv2WBDEvf5iHDznA%3D&risl=&pid=ImgRaw&r=0"
           formato="3D"
-          clasif="Niños"
-          horarios="9:00PM"
-          url="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg"
-          id="02"
-          puntuacion="3/5"
-          sinopsis="Laboris ea consectetur cillum ipsum culpa. Tempor ex amet veniam ex in proident fugiat sint exercitation ut ut. Magna elit consectetur sunt culpa qui nulla laborum excepteur quis. Minim culpa consequat sint fugiat ea. Laborum anim ea aliqua quis. Deserunt sunt tempor magna reprehenderit consectetur."
-          reparto="Sint et occaecat officia mollit occaecat."
-        />
+          clasificacion="Niños"
+          horarios="4:00-6:00 PM"
+        ></CarteleraComp>
         <CarteleraComp
-          titulo="Sonic"
+          titulo="Prueba"
+          url="https://th.bing.com/th/id/R.b28b19ad42419660b65d0079db8984e0?rik=JpKCKYfmoXoQBA&riu=http%3A%2F%2Fes.web.img2.acsta.net%2Fpictures%2F19%2F11%2F12%2F12%2F25%2F0815514.jpg&ehk=j%2B1Os9Fcc%2BXuxpPblBaN0FD9K%2B6Fv2WBDEvf5iHDznA%3D&risl=&pid=ImgRaw&r=0"
           formato="3D"
-          clasif="Niños"
-          horarios="9:00PM"
-          url="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg"
-          id="03"
-          puntuacion="3/5"
-          sinopsis="Laboris ea consectetur cillum ipsum culpa. Tempor ex amet veniam ex in proident fugiat sint exercitation ut ut. Magna elit consectetur sunt culpa qui nulla laborum excepteur quis. Minim culpa consequat sint fugiat ea. Laborum anim ea aliqua quis. Deserunt sunt tempor magna reprehenderit consectetur."
-          reparto="Sint et occaecat officia mollit occaecat."
-        />
+          clasificacion="Niños"
+          horarios="4:00-6:00 PM"
+        ></CarteleraComp>
         <CarteleraComp
-          titulo="Sonic"
+          titulo="Prueba"
+          url="https://th.bing.com/th/id/R.b28b19ad42419660b65d0079db8984e0?rik=JpKCKYfmoXoQBA&riu=http%3A%2F%2Fes.web.img2.acsta.net%2Fpictures%2F19%2F11%2F12%2F12%2F25%2F0815514.jpg&ehk=j%2B1Os9Fcc%2BXuxpPblBaN0FD9K%2B6Fv2WBDEvf5iHDznA%3D&risl=&pid=ImgRaw&r=0"
           formato="3D"
-          clasif="Niños"
-          horarios="9:00PM"
-          url="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg"
-          id="04"
-          puntuacion="3/5"
-          sinopsis="Laboris ea consectetur cillum ipsum culpa. Tempor ex amet veniam ex in proident fugiat sint exercitation ut ut. Magna elit consectetur sunt culpa qui nulla laborum excepteur quis. Minim culpa consequat sint fugiat ea. Laborum anim ea aliqua quis. Deserunt sunt tempor magna reprehenderit consectetur."
-          reparto="Sint et occaecat officia mollit occaecat."
-        />
+          clasificacion="Niños"
+          horarios="4:00-6:00 PM"
+        ></CarteleraComp>
         <CarteleraComp
-          titulo="Sonic"
+          titulo="Prueba"
+          url="https://th.bing.com/th/id/R.b28b19ad42419660b65d0079db8984e0?rik=JpKCKYfmoXoQBA&riu=http%3A%2F%2Fes.web.img2.acsta.net%2Fpictures%2F19%2F11%2F12%2F12%2F25%2F0815514.jpg&ehk=j%2B1Os9Fcc%2BXuxpPblBaN0FD9K%2B6Fv2WBDEvf5iHDznA%3D&risl=&pid=ImgRaw&r=0"
           formato="3D"
-          clasif="Niños"
-          horarios="9:00PM"
-          url="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg"
-          id="05"
-          puntuacion="3/5"
-          sinopsis="Laboris ea consectetur cillum ipsum culpa. Tempor ex amet veniam ex in proident fugiat sint exercitation ut ut. Magna elit consectetur sunt culpa qui nulla laborum excepteur quis. Minim culpa consequat sint fugiat ea. Laborum anim ea aliqua quis. Deserunt sunt tempor magna reprehenderit consectetur."
-          reparto="Sint et occaecat officia mollit occaecat."
-        />
+          clasificacion="Niños"
+          horarios="4:00-6:00 PM"
+        ></CarteleraComp>
         <CarteleraComp
-          titulo="Sonic"
+          titulo="Prueba"
+          url="https://th.bing.com/th/id/R.b28b19ad42419660b65d0079db8984e0?rik=JpKCKYfmoXoQBA&riu=http%3A%2F%2Fes.web.img2.acsta.net%2Fpictures%2F19%2F11%2F12%2F12%2F25%2F0815514.jpg&ehk=j%2B1Os9Fcc%2BXuxpPblBaN0FD9K%2B6Fv2WBDEvf5iHDznA%3D&risl=&pid=ImgRaw&r=0"
           formato="3D"
-          clasif="Niños"
-          horarios="9:00PM"
-          url="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg"
-          id="06"
-          puntuacion="3/5"
-          sinopsis="Laboris ea consectetur cillum ipsum culpa. Tempor ex amet veniam ex in proident fugiat sint exercitation ut ut. Magna elit consectetur sunt culpa qui nulla laborum excepteur quis. Minim culpa consequat sint fugiat ea. Laborum anim ea aliqua quis. Deserunt sunt tempor magna reprehenderit consectetur."
-          reparto="Sint et occaecat officia mollit occaecat."
-        />
+          clasificacion="Niños"
+          horarios="4:00-6:00 PM"
+        ></CarteleraComp>
         <CarteleraComp
-          titulo="Sonic"
+          titulo="Prueba"
+          url="https://th.bing.com/th/id/R.b28b19ad42419660b65d0079db8984e0?rik=JpKCKYfmoXoQBA&riu=http%3A%2F%2Fes.web.img2.acsta.net%2Fpictures%2F19%2F11%2F12%2F12%2F25%2F0815514.jpg&ehk=j%2B1Os9Fcc%2BXuxpPblBaN0FD9K%2B6Fv2WBDEvf5iHDznA%3D&risl=&pid=ImgRaw&r=0"
           formato="3D"
-          clasif="Niños"
-          horarios="9:00PM"
-          url="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg"
-          id="07"
-          puntuacion="3/5"
-          sinopsis="Laboris ea consectetur cillum ipsum culpa. Tempor ex amet veniam ex in proident fugiat sint exercitation ut ut. Magna elit consectetur sunt culpa qui nulla laborum excepteur quis. Minim culpa consequat sint fugiat ea. Laborum anim ea aliqua quis. Deserunt sunt tempor magna reprehenderit consectetur."
-          reparto="Sint et occaecat officia mollit occaecat."
-        />
+          clasificacion="Niños"
+          horarios="4:00-6:00 PM"
+        ></CarteleraComp>
         <CarteleraComp
-          titulo="Sonic"
+          titulo="Prueba"
+          url="https://th.bing.com/th/id/R.b28b19ad42419660b65d0079db8984e0?rik=JpKCKYfmoXoQBA&riu=http%3A%2F%2Fes.web.img2.acsta.net%2Fpictures%2F19%2F11%2F12%2F12%2F25%2F0815514.jpg&ehk=j%2B1Os9Fcc%2BXuxpPblBaN0FD9K%2B6Fv2WBDEvf5iHDznA%3D&risl=&pid=ImgRaw&r=0"
           formato="3D"
-          clasif="Niños"
-          horarios="9:00PM"
-          url="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg"
-          id="08"
-          puntuacion="3/5"
-          sinopsis="Laboris ea consectetur cillum ipsum culpa. Tempor ex amet veniam ex in proident fugiat sint exercitation ut ut. Magna elit consectetur sunt culpa qui nulla laborum excepteur quis. Minim culpa consequat sint fugiat ea. Laborum anim ea aliqua quis. Deserunt sunt tempor magna reprehenderit consectetur."
-          reparto="Sint et occaecat officia mollit occaecat."
-        />
+          clasificacion="Niños"
+          horarios="4:00-6:00 PM"
+        ></CarteleraComp>
         <CarteleraComp
-          titulo="Sonic"
+          titulo="Prueba"
+          url="https://th.bing.com/th/id/R.b28b19ad42419660b65d0079db8984e0?rik=JpKCKYfmoXoQBA&riu=http%3A%2F%2Fes.web.img2.acsta.net%2Fpictures%2F19%2F11%2F12%2F12%2F25%2F0815514.jpg&ehk=j%2B1Os9Fcc%2BXuxpPblBaN0FD9K%2B6Fv2WBDEvf5iHDznA%3D&risl=&pid=ImgRaw&r=0"
           formato="3D"
-          clasif="Niños"
-          horarios="9:00PM"
-          url="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg"
-          id="09"
-          puntuacion="3/5"
-          sinopsis="Laboris ea consectetur cillum ipsum culpa. Tempor ex amet veniam ex in proident fugiat sint exercitation ut ut. Magna elit consectetur sunt culpa qui nulla laborum excepteur quis. Minim culpa consequat sint fugiat ea. Laborum anim ea aliqua quis. Deserunt sunt tempor magna reprehenderit consectetur."
-          reparto="Sint et occaecat officia mollit occaecat."
-        />
+          clasificacion="Niños"
+          horarios="4:00-6:00 PM"
+        ></CarteleraComp>
         <CarteleraComp
-          titulo="Sonic"
+          titulo="Prueba"
+          url="https://th.bing.com/th/id/R.b28b19ad42419660b65d0079db8984e0?rik=JpKCKYfmoXoQBA&riu=http%3A%2F%2Fes.web.img2.acsta.net%2Fpictures%2F19%2F11%2F12%2F12%2F25%2F0815514.jpg&ehk=j%2B1Os9Fcc%2BXuxpPblBaN0FD9K%2B6Fv2WBDEvf5iHDznA%3D&risl=&pid=ImgRaw&r=0"
           formato="3D"
-          clasif="Niños"
-          horarios="9:00PM"
-          url="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg"
-          id="10"
-          puntuacion="3/5"
-          sinopsis="Laboris ea consectetur cillum ipsum culpa. Tempor ex amet veniam ex in proident fugiat sint exercitation ut ut. Magna elit consectetur sunt culpa qui nulla laborum excepteur quis. Minim culpa consequat sint fugiat ea. Laborum anim ea aliqua quis. Deserunt sunt tempor magna reprehenderit consectetur."
-          reparto="Sint et occaecat officia mollit occaecat."
-        />
-        <CarteleraComp
-          titulo="Sonic"
-          formato="3D"
-          clasif="Niños"
-          horarios="9:00PM"
-          url="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg"
-          id="11"
-          puntuacion="3/5"
-          sinopsis="Laboris ea consectetur cillum ipsum culpa. Tempor ex amet veniam ex in proident fugiat sint exercitation ut ut. Magna elit consectetur sunt culpa qui nulla laborum excepteur quis. Minim culpa consequat sint fugiat ea. Laborum anim ea aliqua quis. Deserunt sunt tempor magna reprehenderit consectetur."
-          reparto="Sint et occaecat officia mollit occaecat."
-        />
-        <CarteleraComp
-          titulo="Sonic"
-          formato="3D"
-          clasif="Niños"
-          horarios="9:00PM"
-          url="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg"
-          id="12"
-          puntuacion="3/5"
-          sinopsis="Laboris ea consectetur cillum ipsum culpa. Tempor ex amet veniam ex in proident fugiat sint exercitation ut ut. Magna elit consectetur sunt culpa qui nulla laborum excepteur quis. Minim culpa consequat sint fugiat ea. Laborum anim ea aliqua quis. Deserunt sunt tempor magna reprehenderit consectetur."
-          reparto="Sint et occaecat officia mollit occaecat."
-        />
-        <CarteleraComp
-          titulo="Sonic"
-          formato="3D"
-          clasif="Niños"
-          horarios="9:00PM"
-          url="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg"
-          id="13"
-          puntuacion="3/5"
-          sinopsis="Laboris ea consectetur cillum ipsum culpa. Tempor ex amet veniam ex in proident fugiat sint exercitation ut ut. Magna elit consectetur sunt culpa qui nulla laborum excepteur quis. Minim culpa consequat sint fugiat ea. Laborum anim ea aliqua quis. Deserunt sunt tempor magna reprehenderit consectetur."
-          reparto="Sint et occaecat officia mollit occaecat."
-        />
-        <CarteleraComp
-          titulo="Sonic"
-          formato="3D"
-          clasif="Niños"
-          horarios="9:00PM"
-          url="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg"
-          id="14"
-          puntuacion="3/5"
-          sinopsis="Laboris ea consectetur cillum ipsum culpa. Tempor ex amet veniam ex in proident fugiat sint exercitation ut ut. Magna elit consectetur sunt culpa qui nulla laborum excepteur quis. Minim culpa consequat sint fugiat ea. Laborum anim ea aliqua quis. Deserunt sunt tempor magna reprehenderit consectetur."
-          reparto="Sint et occaecat officia mollit occaecat."
-        />
-        <CarteleraComp
-          titulo="Sonic"
-          formato="3D"
-          clasif="Niños"
-          horarios="9:00PM"
-          url="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg"
-          id="15"
-          puntuacion="3/5"
-          sinopsis="Laboris ea consectetur cillum ipsum culpa. Tempor ex amet veniam ex in proident fugiat sint exercitation ut ut. Magna elit consectetur sunt culpa qui nulla laborum excepteur quis. Minim culpa consequat sint fugiat ea. Laborum anim ea aliqua quis. Deserunt sunt tempor magna reprehenderit consectetur."
-          reparto="Sint et occaecat officia mollit occaecat."
-        />
+          clasificacion="Niños"
+          horarios="4:00-6:00 PM"
+        ></CarteleraComp>
       </div>
     </div>
     <Footer />
@@ -179,6 +84,7 @@
 import CarteleraComp from "@/components/CarteleraComp.vue";
 import NavBar from "@/components/NavBar.vue";
 import Footer from "@/components/Footer.vue";
+
 export default {
   name: "Cartelera",
   components: {
